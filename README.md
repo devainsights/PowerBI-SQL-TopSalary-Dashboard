@@ -3,6 +3,9 @@
 ## 📌 Objective
 To extract Top 3 highest salary employees per department using SQL Window functions, export to Power BI and visualize insights.
 
+🔗 **Live Dashboard:**  
+https://app.powerbi.com/reportEmbed?reportId=4b34d3ca-c786-4a32-b504-0ef5cbba886a&autoAuth=true&ctid=68fa027e-d599-4724-8870-99bdcaded2f9&actionBarEnabled=true
+
 ## ✅ Steps Performed
 1. Queried SQL Server using ROW_NUMBER() & RANK() window functions.
 2. Filtered Top 3 salary employees per department.
@@ -33,9 +36,7 @@ Power BI, SQL Server (SSMS), SQL Window Functions, Data Modeling
 - README.md
 
 
-## 🔗 Live Dashboard
-https://app.powerbi.com/reportEmbed?reportId=4b34d3ca-c786-4a32-b504-0ef5cbba886a&autoAuth=true&ctid=68fa027e-d599-4724-8870-99bdcaded2f9&actionBarEnabled=true
-
 Publish using:
 **File → Publish → Power BI Service**
+
 
