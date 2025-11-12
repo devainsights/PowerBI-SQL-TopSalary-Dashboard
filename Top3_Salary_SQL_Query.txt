@@ -1,0 +1,6 @@
+select * from (
+	select e.name, e.salary, d.departmentname,
+	RANK() over(partition by d.departmentname order by e.salary desc) as salaryrow
+	from Employees e join Departments d on e.DepartmentID=d.DepartmentID
+) as salaryrank
+where salaryrow <=3
